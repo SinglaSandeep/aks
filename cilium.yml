@@ -604,7 +604,7 @@ enableK8sEventHandover: false
 # enableK8sEndpointSlice: true
 
 # -- Enable CiliumEndpointSlice feature.
-enableCiliumEndpointSlice: false
+enableCiliumEndpointSlice: true
 
 ingressController:
   # -- Enable cilium ingress controller
