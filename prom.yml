@@ -471,14 +471,14 @@ server:
   ##
   tcpSocketProbeEnabled: false
   probeScheme: HTTP
-  readinessProbeInitialDelay: 30
-  readinessProbePeriodSeconds: 5
-  readinessProbeTimeout: 4
+  readinessProbeInitialDelay: 60
+  readinessProbePeriodSeconds: 30
+  readinessProbeTimeout: 15
   readinessProbeFailureThreshold: 3
   readinessProbeSuccessThreshold: 1
-  livenessProbeInitialDelay: 30
-  livenessProbePeriodSeconds: 15
-  livenessProbeTimeout: 10
+  livenessProbeInitialDelay: 120
+  livenessProbePeriodSeconds: 60
+  livenessProbeTimeout: 30
   livenessProbeFailureThreshold: 3
   livenessProbeSuccessThreshold: 1
   startupProbe:
